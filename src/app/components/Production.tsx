@@ -86,6 +86,50 @@ function Production() {
                             className='rounded-sm'
                         />
                     </div>
+                    <div className='flex flex-col justify-between gap-2 w-full pt-10 '>
+                        <div className='flex w-[35%] h-8 bg-[#dd9d62] items-center justify-center'>
+                            <label className='text-[30px]'>
+                                1990
+                            </label>
+                        </div>
+                        <Image
+                            src={'/1990.png'}
+                            alt={'1990 Kerupuk Keluarga'}
+                            width={400}
+                            height={200}
+                            className='rounded-sm'
+                        />
+                        {/* <h1 className='text-start text-black font-extrabold text-[30px]'>
+                            1990
+                        </h1> */}
+                        <p className='text-black text-justify'>
+                            In the past KERUPUK KELUARGA starting the jorney with small
+                            business and traditional asset.
+                            Growing step by step with consistentcy and hard work.
+                        </p>
+                        <div className='flex w-[35%] h-8 bg-[#dd9d62] items-center justify-center'>
+                            <label className='text-[30px]'>
+                                2024
+                            </label>
+                        </div>
+                        {/* <h1 className='text-start text-black font-extrabold text-[30px]'>
+                            2024
+                        </h1> */}
+                        <Image
+                            src={'/2024.png'}
+                            alt={'2024 Kerupuk Keluarga'}
+                            width={400}
+                            height={200}
+                            className='rounded-sm'
+                        />
+                        <p className='text-black text-justify'>
+                            KERUPUK KELUARGA has successfully developed its sales with bunch
+                            of product and continues to grow. Sales are progressing steadily,
+                            and the business plans to add various new products in the future.
+                        </p>
+
+                    </div>
+
                 </div>
             </div>
         </section >

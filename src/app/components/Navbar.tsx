@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import Image from "next/image";
 
-const Navbar = ({ color }: { color: any }) => {
+const Navbar = () => {
     const [scrollLocation, setScrollLocation] = useState(0);
     const [prevScrollLocation, setPrevScrollLocation] = useState(0);
     const [scrollDirection, setScrollDirection] = useState<string | null>(null);
@@ -42,7 +42,7 @@ const Navbar = ({ color }: { color: any }) => {
                 }
     `}
         >
-            <div style={{ background: `${color}` }} className='flex w-full fixed top-0 h-[70px] bg-[#d5bfaa] shadow-md backdrop-blur-md z-50 justify-center items-center'>
+            <div className='flex w-full fixed top-0 h-[70px] bg-[#d5bfaa] shadow-md backdrop-blur-md z-50 justify-center items-center'>
 
                 <div className='flex w-full flex-col-1 justify-between gap-4 px-4'>
                     <div className='flex gap-3 items-center'>
@@ -82,7 +82,7 @@ const Navbar = ({ color }: { color: any }) => {
                             English
                         </button>
                         <button className=' text-[#F0F3FF] font-semibold text-base ' >
-                            Mandarin
+                            Chinese
                         </button>
                     </div>
 
