@@ -16,3 +16,29 @@ export const AboutData = {
     "1998 年，随着餅乾產量和销售量的增加，「家記」作為產品標籤被引 入到各種類型的產品中。為了適應市場的需要，配合和支持生產的提高 ，緊跟着當地旅遊業的腳步，目前「家記」已開設了多間連鎖店，當地 多所小食品零售商也成為良好的合作夥伴，生產和營銷有機地結為相輔 相成的一體，為「家記」的生存和發展提供了空間。 「家記」這名稱 本身的靈感来自於創業人黃亞添對中国格言「家和萬事興」的崇尚，寓 意家人世代团结和谐，由於家庭和諧，一切將隨之化作無限美好、欣欣 向榮、興旺發達。",
   ],
 };
+
+export const ProductionData = {
+  testimoniEng:
+    "The recipe and taste quality have not changed for more than 50 years",
+  testimoniIn:
+    "Resep dan kualitas rasanya tidak berubah selama lebih dari 50 tahun",
+  testimoniChi: "50多年來配方和口味品質沒有改變",
+  outletEng:
+    "OK Store (OK aka Oleh-oleh Keluarga) which was founded in 2011. Became the first outlet to open in the tourist area with the concept of “ONE STOP SHOPPING“ selling various Belitung souvenirs. Such as snacks, clothes, souvenirs and more.",
+  outletIn:
+    "OK Store (OK alias Oleh-oleh Keluarga) yang berdiri sejak tahun 2011. Menjadi outlet pertama yang dibuka di kawasan wisata dengan konsep “ONE STOP SHOPPING” yang menjual berbagai oleh-oleh khas Belitung. Seperti makanan ringan, pakaian, souvenir dan lainnya.",
+  outletChi:
+    "OK Store（OK又名Oleh-oleh Keluarga）成立於2011年。例如零食、衣服、紀念品等等。",
+  tahun1990Eng:
+    "In the past KERUPUK KELUARGA starting the jorney with small business and traditional asset. Growing step by step with consistentcy and hard work.",
+  tahun1990In:
+    "Dahulu KERUPUK KELUARGA memulai perjalanannya dengan usaha kecil-kecilan dan aset tradisional. Tumbuh selangkah demi selangkah dengan konsistensi dan kerja keras.",
+  tahun1990Chi:
+    "過去，KERUPUK KELUARGA 是從小型企業和傳統資產開始的。靠著堅持和努力，一步步成長.",
+  tahun2024Eng:
+    "KERUPUK KELUARGA has successfully developed its sales with bunch of product and continues to grow. Sales are progressing steadily, and the business plans to add various new products in the future.",
+  tahun2024In:
+    "KERUPUK KELUARGA telah berhasil mengembangkan penjualannya dengan banyak produk dan terus berkembang. Penjualan terus mengalami kemajuan, dan bisnis berencana untuk menambah berbagai produk baru di masa depan.",
+  tahun2024Chi:
+    "KERUPUK KELUARGA 已成功開發了一系列產品的銷售並持續成長。銷售穩步進展，公司計劃未來增加各種新產品。",
+};

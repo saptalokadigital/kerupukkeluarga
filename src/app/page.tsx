@@ -120,7 +120,7 @@ function Page() {
         className="flex  min-h-screen  flex-col bg-white px-4 py-4 backdrop-blur-md"
         id="production"
       >
-        <Production />
+        <Production language={language} />
       </main>
       <main
         className="flex  min-h-screen  flex-col bg-[#f8e4dc] px-4 py-4 backdrop-blur-md"

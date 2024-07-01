@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { AboutData } from "../utils/about";
+import { AboutData } from "../utils/DataTranslate";
 
 function About({ language }: { language: string }) {
   return (
