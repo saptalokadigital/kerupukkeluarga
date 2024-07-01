@@ -2,6 +2,8 @@ import React from 'react'
 import Image from 'next/image';
 import Kerupukdangetas from './kerupuk/Kerupukdangetas';
 import Kerupukmentah from './kerupuk/Kerupukmentah';
+import Rempaku from './kerupuk/Rempaku';
+
 function Catalog() {
 
     return (
@@ -176,27 +178,26 @@ function Catalog() {
                         </div>
                         <div className='w-full overflow-x-auto '>
                             <div className='flex w-[700px] h-36 items-start'>
-                                <Kerupukmentah
-                                    image={'/ikan3.png'}
+                                <Rempaku
+                                    image={'/rempaku1.png'}
                                     alt={'Ikan'}
-                                    height={100}
-                                    width={50}
+                                    height={200}
+                                    width={100}
 
 
                                     teks={'Fish Cracker'} />
-                                <Kerupukmentah
-                                    image={'/cumi3.png'}
+                                <Rempaku
+                                    image={'/rempaku2.png'}
                                     alt={'Cumi'}
-                                    height={100}
-                                    width={50}
-
+                                    height={200}
+                                    width={100}
 
                                     teks={'Squid Cracker'} />
-                                <Kerupukmentah
-                                    image={'/udang3.png'}
+                                <Rempaku
+                                    image={'/rempaku3.png'}
                                     alt={'Udang'}
-                                    height={100}
-                                    width={50}
+                                    height={200}
+                                    width={100}
 
 
                                     teks={'Shrimp Cracker'} />
