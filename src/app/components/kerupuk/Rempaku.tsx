@@ -6,7 +6,7 @@ const Rempaku = ({ image, alt, height, width, teks }:
 
     return (
         <div className='max-w-[100px] '>
-            <div className='grid grid-cols-2 gap-x-1 h-24 items-end'>
+            <div className='flex w-[70%] gap-x-1 h-24 items-center justify-center'>
                 <div>
                     <Image
                         src={image}

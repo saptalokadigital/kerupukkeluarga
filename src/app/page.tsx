@@ -6,6 +6,7 @@ import Introduction from "./components/Introduction";
 import Production from "./components/Production";
 import Catalog from "./components/Catalog";
 import Image from "next/image";
+import ContactUs from "./components/ContactUs";
 
 function Page() {
   const [scrollLocation, setScrollLocation] = useState(0);
@@ -43,11 +44,10 @@ function Page() {
         <div
           className={`absolute w-full  flex justify-between items-center py-[25px] duration-200 
     ${scrollLocation >= 100 ? "bg-[#000820]" : "bg-transparent"}
-    ${
-      scrollLocation >= 100 && scrollDirection == "down"
-        ? "-translate-y-[90px]"
-        : ""
-    }
+    ${scrollLocation >= 100 && scrollDirection == "down"
+              ? "-translate-y-[90px]"
+              : ""
+            }
     `}
         >
           <div className="flex w-full fixed top-0 h-[70px] bg-[#d5bfaa] shadow-md backdrop-blur-md z-50 justify-center items-center">
@@ -127,6 +127,12 @@ function Page() {
         id="catalog"
       >
         <Catalog />
+      </main>
+      <main
+        className="flex  min-h-[20%]  flex-col  pl-4 py-6 backdrop-blur-md bg-white"
+        id="contact"
+      >
+        <ContactUs />
       </main>
     </div>
   );
