@@ -37,9 +37,9 @@ const ContactUs = () => {
                             <Link href='https://maps.app.goo.gl/p3jSgi483jk1Qrxx7' className='text-[12px] text-black '>
                                 JL. PATIMURA, TJ.PENDAM, KEC. TJ.PANDAN, KABUPATEN BELITUNG
                             </Link>
-                            <label className='text-[12px] text-black '>
+                            <Link href={'mailto:KELUARGABELITUNG@GMAIL.COM'} className='text-[12px] text-black '>
                                 KELUARGABELITUNG@GMAIL.COM
-                            </label>
+                            </Link >
                             <label className='text-[12px] text-black '>
                                 +62 878-0163-3338
                             </label>
