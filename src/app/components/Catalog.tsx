@@ -16,8 +16,8 @@ function Catalog() {
                     <h1 className='text-[#b68060]  font-extrabold  text-[40px] pb-8'>
                         PRODUCT
                     </h1>
-                    <div className='flex w-[70%] h-8 bg-black items-center justify-center'>
-                        <label className='text-[25px] text-white'>
+                    <div className='flex w-[70%] h-6 bg-black items-center justify-center'>
+                        <label className='text-[22px] text-white'>
                             KERUPUK & GETAS
                         </label>
                     </div>
@@ -86,8 +86,8 @@ function Catalog() {
                         </div>
 
                     </div>
-                    <div className='flex w-[70%] h-8 bg-black items-center justify-center'>
-                        <label className='text-[25px] text-white'>
+                    <div className='flex w-[70%] h-6 bg-black items-center justify-center'>
+                        <label className='text-[22px] text-white'>
                             KERUPUK MENTAH
                         </label>
                     </div>
@@ -171,41 +171,42 @@ function Catalog() {
                                 </p>
                             </div>
                         </div>
-                        <div className='flex w-[70%] h-8 bg-black items-center justify-center'>
-                            <label className='text-[25px] text-white'>
-                                REMPAKU
-                            </label>
-                        </div>
-                        <div className='w-full overflow-x-auto '>
-                            <div className='flex w-[700px] h-36 items-start'>
-                                <Rempaku
-                                    image={'/rempaku1.png'}
-                                    alt={'Ikan'}
-                                    height={200}
-                                    width={100}
-
-
-                                    teks={'Fish Cracker'} />
-                                <Rempaku
-                                    image={'/rempaku2.png'}
-                                    alt={'Cumi'}
-                                    height={200}
-                                    width={100}
-
-                                    teks={'Squid Cracker'} />
-                                <Rempaku
-                                    image={'/rempaku3.png'}
-                                    alt={'Udang'}
-                                    height={200}
-                                    width={100}
-
-
-                                    teks={'Shrimp Cracker'} />
-
-                            </div>
-
-                        </div>
                     </div>
+                    <div className='flex w-[70%] h-8 bg-black items-center justify-center'>
+                        <label className='text-[25px] text-white'>
+                            REMPAKU
+                        </label>
+                    </div>
+                    <div className='w-full overflow-x-auto '>
+                        <div className='flex w-[700px] h-36 items-start'>
+                            <Rempaku
+                                image={'/rempaku1.png'}
+                                alt={'Ikan'}
+                                height={200}
+                                width={100}
+
+
+                                teks={'Fish Cracker'} />
+                            <Rempaku
+                                image={'/rempaku2.png'}
+                                alt={'Cumi'}
+                                height={200}
+                                width={100}
+
+                                teks={'Squid Cracker'} />
+                            <Rempaku
+                                image={'/rempaku3.png'}
+                                alt={'Udang'}
+                                height={200}
+                                width={100}
+
+
+                                teks={'Shrimp Cracker'} />
+
+                        </div>
+
+                    </div>
+
                 </div>
 
 
