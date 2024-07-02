@@ -37,7 +37,7 @@ const ContactUs = () => {
                             <Link href='https://maps.app.goo.gl/p3jSgi483jk1Qrxx7' className='text-[12px] text-black '>
                                 JL. PATIMURA, TJ.PENDAM, KEC. TJ.PANDAN, KABUPATEN BELITUNG
                             </Link>
-                            <Link href={'mailto:KELUARGABELITUNG@GMAIL.COM'} className='text-[12px] text-black '>
+                            <Link href={'mailto:keluargabelitung@gmail.com'} className='text-[12px] text-black '>
                                 KELUARGABELITUNG@GMAIL.COM
                             </Link >
                             <label className='text-[12px] text-black '>
