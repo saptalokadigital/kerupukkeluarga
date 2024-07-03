@@ -51,7 +51,7 @@ function Page() {
             }
     `}
         >
-          <div className="flex w-full fixed top-0 md:h-[110px] h-[70px] bg-[#d5bfaa] shadow-md backdrop-blur-md z-50 justify-center items-center">
+          <div className="flex w-full fixed top-0 md:h-[90px] h-[70px] bg-[#d5bfaa] shadow-md backdrop-blur-md z-50 justify-center items-center">
             <div className="flex w-full flex-col-1 justify-between gap-4 px-4">
               <div className="flex gap-3 items-center">
                 {/* <a href='/#'>
@@ -82,32 +82,33 @@ function Page() {
                   />
                 </a>
               </div>
-              <div className="flex md:gap-10 gap-2 flex-row w-full justify-center items-center ">
+              <div className="flex md:gap-12 gap-2  w-full justify-center items-center ">
                 <Link href={"#history"}>
-                  <button className="text-white md:text-[30px]">
+                  <button className="text-white md:text-[30px] underline">
                     History
                   </button>
                 </Link>
                 <Link href={"#production"}>
-                  <button className="text-white md:text-[30px]">
+                  <button className="text-white md:text-[30px] underline">
                     Production
                   </button>
                 </Link>
                 <Link href={"#catalog"}>
-                  <button className="text-white md:text-[30px]">
+                  <button className="text-white md:text-[30px] underline">
                     Catalog
                   </button>
                 </Link>
               </div>
-              <div className="flex gap-1 flex-col  md:text-[30px]">
+              <div className="flex gap-1 flex-row md:text-[30px]">
                 <button
                   onClick={() => setLanguage("in")}
                   className="  text-[#F0F3FF] font-semibold text-base "
                 >
                   <img
-                    className="rounded-full"
+                    className=""
                     src="https://flagcdn.com/id.svg"
                     width="40"
+
                     alt="Indonesia" />
                 </button>
                 <button
@@ -115,7 +116,7 @@ function Page() {
                   className=" text-[#F0F3FF] font-semibold text-base "
                 >
                   <img
-                    className="rounded-full"
+                    className=""
                     src="https://flagcdn.com/gb.svg"
                     width="40"
 
@@ -126,7 +127,7 @@ function Page() {
                   className=" text-[#F0F3FF] font-semibold text-base "
                 >
                   <img
-                    className="rounded-full"
+                    className=""
                     src="https://flagcdn.com/cn.svg"
                     width="40"
                     alt="Chinese" />
