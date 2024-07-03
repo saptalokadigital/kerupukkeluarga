@@ -42,8 +42,8 @@ function About({ language }: { language: string }) {
                 <Image
                   src={"/history.png"}
                   alt={"Gambar Lokasi Kerupuk Cap Keluarga"}
-                  height={400}
-                  width={500}
+                  height={300}
+                  width={400}
                   className="rounded-sm md:w-[700px]"
                 />
               </div>
@@ -72,7 +72,7 @@ function About({ language }: { language: string }) {
             <div className="w-full flex justify-center">
               <Image
                 src={"/indo.png"}
-                alt={"Gambar Lokasi Kerupuk Cap Keluarga"}
+                alt={"Lokasi Kerupuk Cap Keluarga"}
                 height={400}
                 width={500}
                 className="pt-4 rounded-md md:w-[700px] md:h-[400px]"
