@@ -46,7 +46,7 @@ function Catalog() {
                                 <h1 className='text-[#b68060]  font-extrabold  text-[40px] pb-8'>
                                     PRODUCT
                                 </h1>
-                                <div className='flex w-[60%] h-8 bg-black items-center justify-center '>
+                                <div className='flex w-auto px-1 h-8 bg-black items-center justify-center '>
                                     <label className='text-[22px] text-white'>
                                         KERUPUK & GETAS
                                     </label>
@@ -120,7 +120,7 @@ function Catalog() {
                                     </div>
 
                                 </div>
-                                <div className='flex w-[60%] h-8 bg-black items-center justify-center mt-5'>
+                                <div className='flex w-auto px-1 h-8 bg-black items-center justify-center mt-5'>
                                     <label className='text-[22px] text-white'>
                                         KERUPUK MENTAH
                                     </label>
@@ -156,7 +156,7 @@ function Catalog() {
                                     </div>
 
                                 </div>
-                                <div className='flex w-[36%] h-8 bg-black items-center justify-center my-5'>
+                                <div className='flex w-auto px-1 h-8 bg-black items-center justify-center my-5'>
                                     <label className='text-[25px] text-white'>
                                         LADABEL
                                     </label>
@@ -207,7 +207,7 @@ function Catalog() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className='flex w-[36%] h-8 bg-black items-center justify-center mt-5'>
+                                <div className='flex w-auto px-1 h-8 bg-black items-center justify-center mt-5'>
                                     <label className='text-[25px] text-white'>
                                         REMPAKU
                                     </label>
@@ -299,7 +299,7 @@ function Catalog() {
                                     </div>
 
                                 </div>
-                                <div className='flex w-[50%] h-8 bg-black items-center justify-center rounded-sm my-4'>
+                                <div className='flex w-auto px-1 h-8 bg-black items-center justify-center rounded-sm my-4'>
                                     <label className='text-[25px] text-white'>
                                         SIRUP JERUK
                                     </label>
