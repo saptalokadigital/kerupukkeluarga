@@ -23,29 +23,34 @@ function About({ language }: { language: string }) {
       >
         <div>
 
-          <div className="px-[4%] py-[4%] w-full flex flex-col items-start text-start">
+          <div className="px-[4%] py-[4%] w-full flex-col  items-start text-start">
+            <div className="flex flex-wrap justify-between">
+              <div className=" flex flex-col">
+                <h1 className="text-[34px] text-black  font-extrabold">
+                  KERUPUK KELUARGA
+                </h1>
+                <h1 className="text-[34px] text-black  font-extrabold">BELITUNG</h1>
+                <h2 className="text-[15px] text-black  font-extrabold">
+                  {language == "eng"
+                    ? AboutData.titleEng
+                    : language == "in"
+                      ? AboutData.titleIn
+                      : AboutData.titleChi}
+                </h2>
+              </div>
+              <div>
+                <Image
+                  src={"/history.png"}
+                  alt={"Gambar Lokasi Kerupuk Cap Keluarga"}
+                  height={400}
+                  width={500}
+                  className="rounded-sm md:w-[700px]"
+                />
+              </div>
+            </div>
 
-            <Image
-              src={"/history.png"}
-              alt={"Gambar Lokasi Kerupuk Cap Keluarga"}
-              height={400}
-              width={500}
-              className="rounded-sm md:w-[700px]"
-            />
 
 
-            <h1 className="text-[34px] text-black  font-extrabold">
-              KERUPUK KELUARGA
-            </h1>
-            <h1 className="text-[34px] text-black  font-extrabold">BELITUNG</h1>
-
-            <h2 className="text-[15px] text-black  font-extrabold">
-              {language == "eng"
-                ? AboutData.titleEng
-                : language == "in"
-                  ? AboutData.titleIn
-                  : AboutData.titleChi}
-            </h2>
             {language == "eng"
               ? AboutData.paragrafEng.map((data, i) => (
                 <p key={i} className="text-black pt-3 text-justify">
@@ -64,14 +69,16 @@ function About({ language }: { language: string }) {
                   </p>
                 ))}
 
+            <div className="w-full flex justify-center">
+              <Image
+                src={"/indo.png"}
+                alt={"Gambar Lokasi Kerupuk Cap Keluarga"}
+                height={400}
+                width={500}
+                className="pt-4 rounded-md md:w-[700px] md:h-[400px]"
+              />
+            </div>
 
-            <Image
-              src={"/indonesia.png"}
-              alt={"Gambar Lokasi Kerupuk Cap Keluarga"}
-              height={400}
-              width={500}
-              className="pt-4 rounded-md md:w-[700px] md:h-[400px]"
-            />
 
           </div>
 

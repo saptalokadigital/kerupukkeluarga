@@ -42,3 +42,5 @@ export const ProductionData = {
   tahun2024Chi:
     "KERUPUK KELUARGA 已成功開發了一系列產品的銷售並持續成長。銷售穩步進展，公司計劃未來增加各種新產品。",
 };
+
+
