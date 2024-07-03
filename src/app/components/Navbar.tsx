@@ -34,7 +34,7 @@ const Navbar = () => {
 
     return (
         <div
-            className={`absolute w-full  flex justify-between items-center py-[25px] duration-200 
+            className={`absolute w-full  flex justify-between items-center md:py-[50px] py-[25px] duration-200 
     ${scrollLocation >= 100 ? "bg-[#000820]" : "bg-transparent"}
     ${scrollLocation >= 100 && scrollDirection == "down"
                     ? "-translate-y-[90px]"
@@ -42,7 +42,7 @@ const Navbar = () => {
                 }
     `}
         >
-            <div className='flex w-full fixed top-0 h-[70px] bg-[#d5bfaa] shadow-md backdrop-blur-md z-50 justify-center items-center'>
+            <div className='flex w-full fixed top-0 md:h-[200px] h-[70px] bg-[#d5bfaa] shadow-md backdrop-blur-md z-50 justify-center items-center'>
 
                 <div className='flex w-full flex-col-1 justify-between gap-4 px-4'>
                     <div className='flex gap-3 items-center'>
