@@ -78,7 +78,7 @@ const Introduction = () => {
                             <div className=" h-[80%] inset-0 flex md:flex-row flex-col items-center w-full  md:py-0 py-[50%]">
 
                                 <div className="text-white w-full flex flex-col md:items-start md:text-end items-start pt-[25%]">
-                                    <div className="flex flex-col md:w-[60%] w-[48%]  bg-[#dd9e62ae] shadow-sm px-3 py-2">
+                                    <div className="flex flex-col md:w-[70%] w-[48%]  bg-[#dd9e62ae] shadow-sm px-3 py-2">
                                         <h1 className="w-full md:w-full md:text-[60px] text-[23px] text-start   font-semibold text-shadow-sm shadow-black">
                                             BELITUNG BEST CRACKER
                                         </h1>
