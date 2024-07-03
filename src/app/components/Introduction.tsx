@@ -24,7 +24,7 @@ const Introduction = () => {
             {isMobile && (
                 <>
                     <div
-                        className="absolute inset-0 bg-fixed bg-center"
+                        className="absolute inset-0 bg-cover bg-center"
                         style={{
                             backgroundImage: "url('/bg1.png')",
                             backgroundPosition: "bottom",
@@ -36,7 +36,7 @@ const Introduction = () => {
             {!isMobile && (
                 <>
                     <div
-                        className="absolute inset-0 bg-fixed bg-center"
+                        className="absolute inset-0 bg-cover bg-center"
                         style={{
                             backgroundImage: "url('/kakek1.png')",
                             backgroundPosition: "bottom",
