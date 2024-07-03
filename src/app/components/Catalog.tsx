@@ -294,23 +294,22 @@ function Catalog() {
                                     </div>
 
                                 </div>
-
-                                <div className='w-full mt-10 P-3 bg-[#f8e4dc] px-2 py-4 rounded-sm'>
-                                    <div className='flex w-full h-8 bg-black items-center justify-center rounded-sm'>
-                                        <label className='text-[25px] text-white'>
-                                            SIRUP JERUK
-                                        </label>
-                                    </div>
-                                    <div className='flex flex-col w-full items-center justify-center gap-1 rounded-sm'>
-                                        <Image
-                                            src={'/Sirup Jeruk.png'}
-                                            alt={'Sirup Jeruk'}
-                                            width={150}
-                                            height={200} />
-
-                                    </div>
+                                <div className='flex w-[50%] h-8 bg-black items-center justify-center rounded-sm mt-4'>
+                                    <label className='text-[25px] text-white'>
+                                        SIRUP JERUK
+                                    </label>
+                                </div>
+                                <div className='flex flex-col w-full items-start justify-start gap-1 rounded-sm'>
+                                    <Image
+                                        src={'/Sirup Jeruk.png'}
+                                        alt={'Sirup Jeruk'}
+                                        width={150}
+                                        height={200} />
 
                                 </div>
+
+
+
 
                             </div>
                         </>
