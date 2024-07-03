@@ -71,7 +71,7 @@ function About({ language }: { language: string }) {
 
             <div className="w-full flex justify-center">
               <Image
-                src={"/indo.png"}
+                src={"/Indo.png"}
                 alt={"Lokasi Kerupuk Cap Keluarga"}
                 height={400}
                 width={500}
