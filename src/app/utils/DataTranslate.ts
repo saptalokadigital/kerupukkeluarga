@@ -18,11 +18,32 @@ export const AboutData = {
 };
 
 export const ProductionData = {
+  herediteryIng: "HEREDITARY",
+  herediteryIn: "TURUN-TEMURUN",
+  herediteryChi: "遺傳",
+  productionIng: "PRODUCTION",
+  productionIn: "PRODUKSI",
+  productionChi: "生產",
+  processIng: "PROCESS",
+  processIn: "PROSES",
+  processChi: "過程",
+  kneadingIng: "KNEADING",
+  kneadingIn: "ADON",
+  kneadingChi: "揉捏",
+  fryingIng: "FRYING",
+  fryingIn: "GORENG",
+  fryingChi: "煎炸",
+  servingIng: "SERVING",
+  servingIn: "SAJIKAN",
+  servingChi: "服務",
   testimoniEng:
     "The recipe and taste quality have not changed for more than 50 years",
   testimoniIn:
     "Resep dan kualitas rasanya tidak berubah selama lebih dari 50 tahun",
   testimoniChi: "50多年來配方和口味品質沒有改變",
+  outletJudulEng: "OUTLET",
+  outletJudulIn: "TOKO",
+  outletJudulChi: "出口",
   outletEng:
     "OK Store (OK aka Oleh-oleh Keluarga) which was founded in 2011. Became the first outlet to open in the tourist area with the concept of “ONE STOP SHOPPING“ selling various Belitung souvenirs. Such as snacks, clothes, souvenirs and more.",
   outletIn:
@@ -42,5 +63,34 @@ export const ProductionData = {
   tahun2024Chi:
     "KERUPUK KELUARGA 已成功開發了一系列產品的銷售並持續成長。銷售穩步進展，公司計劃未來增加各種新產品。",
 };
+
+export const catalog = {
+  catalogEng: "CATALOG",
+  catalogIn: "KATALOG",
+  catalogChi: "目錄",
+  productEng: "PRODUCT",
+  productIn: "PRODUK",
+  productChi: "產品",
+
+}
+
+export const Contact = {
+  contactUsEng: "CONTACT US",
+  contactUsIn: "HUBUNGI KAMI",
+  contactUsChi: "聯絡我們",
+  factoryAddressEng: "FACTORY ADDRESS",
+  factoryAddressIn: "ALAMAT PABRIK",
+  factoryAddressChi: "工廠地址",
+  storeAddressEng: "STORE ADDRESS",
+  storeAddressIn: "ALAMAT TOKO",
+  storeAddressChi: "店鋪地址",
+  emailEng: "EMAIL",
+  emailIn: "EMAIL",
+  emailChi: "電子郵件",
+  hpEng: "PHONE NUMBER",
+  hpIn: "NOMOR TELEPON",
+  hpChi: "電話號碼",
+
+}
 
 

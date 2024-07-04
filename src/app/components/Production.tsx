@@ -41,24 +41,48 @@ function Production({ language }: { language: string }) {
           {isMobile && (
             <>
               <div className="px-[4%] py-[4%] w-full flex flex-col items-start text-start">
-                <h1 className="text-[20px] text-black  font-medium">HEREDITARY</h1>
+                <h1 className="text-[20px] text-black  font-medium">{language == "eng"
+                  ? ProductionData.herediteryIng
+                  : language == "in"
+                    ? ProductionData.herediteryIn
+                    : ProductionData.herediteryChi}</h1>
                 <div className="flex flex-row gap-1">
                   <h1 className="text-[32px] text-black  font-extrabold">
-                    PRODUCTION
+                    {language == "eng"
+                      ? ProductionData.productionIng
+                      : language == "in"
+                        ? ProductionData.productionIn
+                        : ProductionData.productionChi}
                   </h1>
                   <h1 className="text-[20px] text-black  font-extrabold pt-[14px]">
-                    PROCESS
+                    {language == "eng"
+                      ? ProductionData.processIng
+                      : language == "in"
+                        ? ProductionData.processIn
+                        : ProductionData.processChi}
                   </h1>
                 </div>
                 <div className="flex flex-row justify-between gap-2 w-full">
                   <h1 className="text-[20px] text-[#b68060]  font-extrabold ">
-                    KNEADING
+                    {language == "eng"
+                      ? ProductionData.kneadingIng
+                      : language == "in"
+                        ? ProductionData.kneadingIn
+                        : ProductionData.kneadingChi}
                   </h1>
                   <h1 className="text-[20px] text-[#b68060]  font-extrabold ">
-                    FRYING
+                    {language == "eng"
+                      ? ProductionData.fryingIng
+                      : language == "in"
+                        ? ProductionData.fryingIn
+                        : ProductionData.fryingChi}
                   </h1>
                   <h1 className="text-[20px] text-[#b68060]  font-extrabold ">
-                    SERVING
+                    {language == "eng"
+                      ? ProductionData.servingIng
+                      : language == "in"
+                        ? ProductionData.servingIn
+                        : ProductionData.servingChi}
                   </h1>
                 </div>
                 <div className="flex flex-row justify-between gap-2 w-full">
@@ -97,7 +121,11 @@ function Production({ language }: { language: string }) {
                 </div>
                 <div className="flex flex-col justify-between gap-2 w-full pt-10 ">
                   <div className="flex w-[35%] h-8 bg-[#dd9d62] items-center justify-center">
-                    <label className="text-[30px]">OUTLET</label>
+                    <label className="text-[30px]">{language == "eng"
+                      ? ProductionData.outletJudulEng
+                      : language == "in"
+                        ? ProductionData.outletJudulIn
+                        : ProductionData.outletJudulChi}</label>
                   </div>
                   <p className="text-black pt-3 text-justify">
                     {language == "eng"
@@ -163,24 +191,48 @@ function Production({ language }: { language: string }) {
             <>
               <div className="flex w-full flex-row">
                 <div className="px-[4%] py-[4%] w-full flex flex-col items-start text-start">
-                  <h1 className="text-[20px] md:text-[40px] text-black  font-medium">HEREDITARY</h1>
+                  <h1 className="text-[20px] md:text-[40px] text-black  font-medium">{language == "eng"
+                    ? ProductionData.herediteryIng
+                    : language == "in"
+                      ? ProductionData.herediteryIn
+                      : ProductionData.herediteryChi}</h1>
                   <div className="flex flex-row gap-1">
                     <h1 className="text-[32px] md:text-[64px] leading-[30px] text-black  font-extrabold">
-                      PRODUCTION
+                      {language == "eng"
+                        ? ProductionData.productionIng
+                        : language == "in"
+                          ? ProductionData.productionIn
+                          : ProductionData.productionChi}
                     </h1>
                     <h1 className="text-[20px] md:text-[40px] text-black  font-extrabold mb-2">
-                      PROCESS
+                      {language == "eng"
+                        ? ProductionData.processIng
+                        : language == "in"
+                          ? ProductionData.processIn
+                          : ProductionData.processChi}
                     </h1>
                   </div>
                   <div className="flex flex-row justify-between gap-2 w-full">
                     <h1 className="text-[20px] md:text-[40px] text-[#b68060]  font-extrabold ">
-                      KNEADING
+                      {language == "eng"
+                        ? ProductionData.kneadingIng
+                        : language == "in"
+                          ? ProductionData.kneadingIn
+                          : ProductionData.kneadingChi}
                     </h1>
                     <h1 className="text-[20px] md:text-[40px] text-[#b68060]  font-extrabold ">
-                      FRYING
+                      {language == "eng"
+                        ? ProductionData.fryingIng
+                        : language == "in"
+                          ? ProductionData.fryingIn
+                          : ProductionData.fryingChi}
                     </h1>
                     <h1 className="text-[20px] md:text-[40px] text-[#b68060]  font-extrabold ">
-                      SERVING
+                      {language == "eng"
+                        ? ProductionData.servingIng
+                        : language == "in"
+                          ? ProductionData.servingIn
+                          : ProductionData.servingChi}
                     </h1>
                   </div>
                   <div className="flex flex-row justify-between px-10 w-full">
@@ -219,7 +271,11 @@ function Production({ language }: { language: string }) {
                   </div>
                   <div className="flex flex-col justify-between gap-2 w-full pt-10 ">
                     <div className="flex w-[35%] h-8 bg-[#dd9d62] items-center justify-center">
-                      <label className="text-[30px]">OUTLET</label>
+                      <label className="text-[30px]"> {language == "eng"
+                        ? ProductionData.outletJudulEng
+                        : language == "in"
+                          ? ProductionData.outletJudulIn
+                          : ProductionData.outletJudulChi}</label>
                     </div>
                     <p className="text-black pt-3 text-justify">
                       {language == "eng"
