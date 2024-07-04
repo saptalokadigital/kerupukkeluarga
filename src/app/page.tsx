@@ -8,6 +8,7 @@ import Catalog from "./components/Catalog";
 import Image from "next/image";
 import ContactUs from "./components/ContactUs";
 import Link from "next/link";
+import Testi from "./components/Testi";
 
 function Page() {
   const [scrollLocation, setScrollLocation] = useState(0);
@@ -159,6 +160,7 @@ function Page() {
         id="catalog"
       >
         <Catalog language={language} />
+        <Testi />
       </main>
       <main
         className="flex  min-h-[20%]  flex-col  pl-4 py-6 backdrop-blur-md bg-white"
@@ -166,6 +168,7 @@ function Page() {
       >
         <ContactUs language={language} />
       </main>
+
     </div>
   );
 }
