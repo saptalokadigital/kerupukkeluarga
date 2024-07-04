@@ -4,8 +4,9 @@ import Kerupukdangetas from './kerupuk/Kerupukdangetas';
 import Kerupukmentah from './kerupuk/Kerupukmentah';
 import Rempaku from './kerupuk/Rempaku';
 import { motion, useInView } from 'framer-motion';
+import { catalog } from '../utils/DataTranslate';
 
-function Catalog() {
+function Catalog({ language }: { language: any }) {
     const [isMobile, setIsMobile] = useState(false);
 
     const handleResize = () => {
@@ -41,10 +42,18 @@ function Catalog() {
                         <>
                             <div className="px-[4%] py-[4%] w-full flex flex-col items-start text-start">
                                 <h1 className='text-black font-extrabold text-[50px] mb-[-20px]'>
-                                    CATALOG
+                                    {language == "eng"
+                                        ? catalog.catalogEng
+                                        : language == "in"
+                                            ? catalog.catalogIn
+                                            : catalog.catalogChi}
                                 </h1>
                                 <h1 className='text-[#b68060]  font-extrabold  text-[40px] pb-8'>
-                                    PRODUCT
+                                    {language == "eng"
+                                        ? catalog.productEng
+                                        : language == "in"
+                                            ? catalog.productIn
+                                            : catalog.productChi}
                                 </h1>
                                 <div className='flex w-auto px-1 h-8 bg-black items-center justify-center '>
                                     <label className='text-[22px] text-white'>
@@ -325,10 +334,18 @@ function Catalog() {
                         <>
                             <div className="px-[4%] py-[4%] w-full flex flex-col items-start text-start">
                                 <h1 className='text-black font-extrabold text-[70px] mb-[-20px]'>
-                                    CATALOG
+                                    {language == "eng"
+                                        ? catalog.catalogEng
+                                        : language == "in"
+                                            ? catalog.catalogIn
+                                            : catalog.catalogChi}
                                 </h1>
                                 <h1 className='text-[#b68060]  font-extrabold  text-[60px] pb-8'>
-                                    PRODUCT
+                                    {language == "eng"
+                                        ? catalog.productEng
+                                        : language == "in"
+                                            ? catalog.productIn
+                                            : catalog.productChi}
                                 </h1>
                                 <div className='flex w-[20%] h-8 bg-black items-center justify-center '>
                                     <label className='text-[22px] text-white'>

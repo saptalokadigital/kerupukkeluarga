@@ -158,13 +158,13 @@ function Page() {
         className="flex  min-h-screen  flex-col  bg-gradient-to-b from-[#f8e4dc] to-white  px-4 py-4 backdrop-blur-md"
         id="catalog"
       >
-        <Catalog />
+        <Catalog language={language} />
       </main>
       <main
         className="flex  min-h-[20%]  flex-col  pl-4 py-6 backdrop-blur-md bg-white"
         id="contact"
       >
-        <ContactUs />
+        <ContactUs language={language} />
       </main>
     </div>
   );

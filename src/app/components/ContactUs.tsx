@@ -1,8 +1,9 @@
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import React from 'react'
+import { Contact } from '../utils/DataTranslate'
 
-const ContactUs = () => {
+const ContactUs = ({ language }: { language: any }) => {
     return (
         <section className="">
             <div>
@@ -20,21 +21,41 @@ const ContactUs = () => {
                 >
                     <div className="px-[4%] py-[4%] w-full flex flex-col items-start text-start bg-[#f8e4dc] rounded-sm">
                         <label className='text-[30px] md:text-[40px] text-black font-extrabold'>
-                            CONTACT US
+                            {language == "eng"
+                                ? Contact.contactUsEng
+                                : language == "in"
+                                    ? Contact.contactUsIn
+                                    : Contact.contactUsChi}
                         </label>
                         <div className='flex pt-4 gap-2'>
                             <div className='flex flex-col gap-3'>
                                 <label className='text-[12px] md:text-[20px] text-black font-bold'>
-                                    FACTORY ADDRESS
+                                    {language == "eng"
+                                        ? Contact.factoryAddressEng
+                                        : language == "in"
+                                            ? Contact.factoryAddressIn
+                                            : Contact.factoryAddressChi}
                                 </label>
                                 <label className='text-[12px] md:text-[20px] text-black font-bold'>
-                                    STORE ADDRESS
+                                    {language == "eng"
+                                        ? Contact.storeAddressEng
+                                        : language == "in"
+                                            ? Contact.storeAddressIn
+                                            : Contact.storeAddressChi}
                                 </label>
                                 <label className='text-[12px] md:text-[20px] text-black font-bold'>
-                                    EMAIL
+                                    {language == "eng"
+                                        ? Contact.emailEng
+                                        : language == "in"
+                                            ? Contact.emailIn
+                                            : Contact.emailChi}
                                 </label>
                                 <label className='text-[12px] md:text-[20px] text-black font-bold'>
-                                    PHONE NUMBER
+                                    {language == "eng"
+                                        ? Contact.hpEng
+                                        : language == "in"
+                                            ? Contact.hpIn
+                                            : Contact.hpChi}
                                 </label>
                             </div>
                             <div>
