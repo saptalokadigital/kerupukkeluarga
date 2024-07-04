@@ -22,7 +22,7 @@ const ContactUs = () => {
                         <label className='text-[30px] md:text-[40px] text-black font-extrabold'>
                             CONTACT US
                         </label>
-                        <div className='flex pt-4 gap-5'>
+                        <div className='flex pt-4 gap-2'>
                             <div className='flex flex-col gap-3'>
                                 <label className='text-[12px] md:text-[20px] text-black font-bold'>
                                     FACTORY ADDRESS
@@ -43,19 +43,32 @@ const ContactUs = () => {
                                     className='w-1 h-[160px]'
                                 />
                             </div>
-                            <div className='flex flex-col gap-3'>
-                                <Link href='https://maps.app.goo.gl/Sw52SeGhGf4TxFhZ9' className='text-[12px] md:text-[20px] text-black '>
-                                    JL. GATOT SUBROTO NO.9, TJ.PENDAM, KEC. TJ.PANDAN, KABUPATEN BELITUNG
-                                </Link>
-                                <Link href='https://maps.app.goo.gl/p3jSgi483jk1Qrxx7' className='text-[12px] md:text-[20px] text-black '>
-                                    JL. PATIMURA, TJ.PENDAM, KEC. TJ.PANDAN, KABUPATEN BELITUNG
-                                </Link>
-                                <Link href={'mailto:keluargabelitung@gmail.com'} className='text-[12px] md:text-[20px] text-black '>
-                                    KELUARGABELITUNG@GMAIL.COM
-                                </Link >
-                                <Link href={'https://wa.me/628780633338'} className='text-[12px] md:text-[20px] text-black '>
-                                    +62 878-0163-3338
-                                </Link>
+                            <div className='flex flex-col gap-3 '>
+                                <div className='flex gap-1 w-full'>
+
+                                    <Link href='https://maps.app.goo.gl/Sw52SeGhGf4TxFhZ9' className='text-[12px] md:text-[20px] text-black underline'>
+                                        JL. GATOT SUBROTO NO.9, TJ.PENDAM, KEC. TJ.PANDAN, KABUPATEN BELITUNG
+                                    </Link>
+                                </div>
+                                <div className='flex gap-1'>
+
+                                    <Link href='https://maps.app.goo.gl/p3jSgi483jk1Qrxx7' className='text-[12px] md:text-[20px] text-black underline'>
+                                        JL. PATIMURA, TJ.PENDAM, KEC. TJ.PANDAN, KABUPATEN BELITUNG
+                                    </Link>
+                                </div>
+                                <div className='flex gap-1 md:pl-1 w-[82%]'>
+
+                                    <Link href={'mailto:keluargabelitung@gmail.com'} className='text-[12px] md:mt-0 mt-1 md:text-[20px] text-black underline'>
+                                        KELUARGABELITUNG@GMAIL.COM
+                                    </Link >
+                                </div>
+                                <div className='flex gap-1 md:pl-1 md:w-[82%] w-auto'>
+
+                                    <Link href={'https://wa.me/6287801633338'} className='text-[12px] md:text-[20px] text-black underline'>
+                                        +62 878-0163-3338
+                                    </Link>
+                                </div>
+
                             </div>
                         </div>
 
