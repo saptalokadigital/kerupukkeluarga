@@ -38,7 +38,7 @@ const Introduction = () => {
                     <div
                         className="absolute inset-0 bg-cover bg-center"
                         style={{
-                            backgroundImage: "url('/kakek1.png')",
+                            backgroundImage: "url('/Kakek1.png')",
                             backgroundPosition: "bottom",
                             backgroundSize: "cover",
                         }}
